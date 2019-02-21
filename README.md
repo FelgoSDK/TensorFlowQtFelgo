@@ -1,7 +1,7 @@
-![ScreenShot](http://v-play.net/support/vplay-logo.png)
+![ScreenShot](https://felgo.com/support/felgo-logo.png)
 
-# TensorFlowQtVPlay
-TensorFlow integration with Qt & V-Play
+# TensorFlowQtFelgo
+TensorFlow integration with Qt & Felgo
 
 Description
 -----------
@@ -10,29 +10,29 @@ This example shows how to create apps that take advantage of both QML and Qt C++
 
 TensorFlow is Google’s open machine learning framework. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and architectures (desktops, clusters of servers, mobile and edge devices).
 
-This example integrates TensorFlow with V-Play and provides Image Classification and Object Detection features.
+This example integrates TensorFlow with Felgo and provides Image Classification and Object Detection features.
 
-For the full integration guide how to use TensorFlow with Qt and V-Play, see:
-https://v-play.net/cross-platform-development/machine-learning-add-image-classification-for-ios-and-android-with-qt-and-tensorflow
+For the full integration guide how to use TensorFlow with Qt and Felgo, see:
+https://felgo.com/cross-platform-development/machine-learning-add-image-classification-for-ios-and-android-with-qt-and-tensorflow
 
-For more information about creating Apps with V-Play Engine, see here: http://v-play.net/apps/.
+For more information about creating Apps with Felgo, see here: https://felgo.com/apps/.
 
 Installation Instructions
 -------------------------
-This app was made with V-Play Engine. You need the engine which is freely available on http://v-play.net/ for all desktop platforms.
+This app was made with Felgo. You need the SDK which is freely available on https://felgo.com/ for all desktop platforms.
 
-1. Go to http://v-play.net/, register, download and install the free V-Play SDK.
+1. Go to https://felgo.com/, register, download and install the free Felgo SDK.
 2. Clone the repository.
-3. Open the project file .pro in QtCreator (comes with V-Play SDK).
+3. Open the project file .pro in QtCreator (comes with Felgo SDK).
 4. Hit run to start the app.
 
 Where to get help
 -----------------
-If you need any help feel free to ask in the V-Play Forums https://v-play.net/developers/forums/ or have a look at our online documentation http://v-play.net/doc/.
+If you need any help feel free to ask in the Felgo Forums https://felgo.com/developers/forums/ or have a look at our online documentation https://felgo.com/doc/.
 
 Contribution guidelines
 -----------------------
-Currently there are no features open, but if you like to contribute use the code standards coming with the V-Play SDK.
+Currently there are no features open, but if you like to contribute use the code standards coming with the Felgo SDK.
 
 Contributor list
 ----------------
@@ -44,10 +44,10 @@ Many thanks to the project developers for sharing this example and preparing the
 
 Contact us
 ----------
-- Forum: https://v-play.net/developers/forums/
-- Twitter: http://www.twitter.com/vplayengine/
-- Facebook: https://www.facebook.com/vplayengine/
-- E-Mail: support@v-play.net
+- Forum: https://felgo.com/developers/forums/
+- Twitter: http://www.twitter.com/FelgoSDK/
+- Facebook: https://www.facebook.com/FelgoSDK/
+- E-Mail: support@felgo.com
 
 License
 -------
@@ -56,5 +56,5 @@ The app sourcecode is released under the MIT license.
 Permission is NOT granted to merge, publish, distribute, sublicense and/or
 sell the provided image, audio and video files of this software.
 
-If You have any questions about those Agreements, please write to support@v-play.net
-or visit http://v-play.net/.
+If You have any questions about those Agreements, please write to support@felgo.com
+or visit https://felgo.com/.

@@ -43,7 +43,7 @@ android {
     compileSdkVersion androidCompileSdkVersion.toInteger()
     buildToolsVersion androidBuildToolsVersion
 
-    defaultConfig.applicationId = 'com.yourcompany.wizardEVAP.TensorFlowQtVPlay'
+    defaultConfig.applicationId = 'com.yourcompany.wizardEVAP.TensorFlowQtFelgo'
 
     sourceSets {
         main {

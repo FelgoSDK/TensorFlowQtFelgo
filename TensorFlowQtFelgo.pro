@@ -6,7 +6,7 @@ CONFIG += v-play
 #CONFIG += v-play-live
 
 # configure the bundle identifier for iOS
-PRODUCT_IDENTIFIER = com.yourcompany.wizardEVAP.TensorFlowQtVPlay
+PRODUCT_IDENTIFIER = com.yourcompany.wizardEVAP.TensorFlowQtFelgo
 
 qmlFolder.source = qml
 

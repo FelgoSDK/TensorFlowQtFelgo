@@ -1,5 +1,5 @@
 #include <QApplication>
-#include <VPApplication>
+#include <FelgoApplication>
 
 #include <QQmlApplicationEngine>
 
@@ -10,13 +10,13 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    VPApplication vplay;
+    FelgoApplication felgo;
 
-    // Use platform-specific fonts instead of V-Play's default font
-    vplay.setPreservePlatformFonts(true);
+    // Use platform-specific fonts instead of Felgo's default font
+    felgo.setPreservePlatformFonts(true);
 
     QQmlApplicationEngine engine;
-    vplay.initialize(&engine);
+    felgo.initialize(&engine);
 
     // Register meta types
     qRegisterMetaType<QList<QRectF>>("QList<QRectF>");
@@ -27,17 +27,17 @@ int main(int argc, char *argv[])
     // use this during development
     // for PUBLISHING, use the entry point below
 #ifdef QT_DEBUG
-    vplay.setMainQmlFileName(QStringLiteral("qml/Main.qml"));
+    felgo.setMainQmlFileName(QStringLiteral("qml/Main.qml"));
 #else
 
     // use this instead of the above call to avoid deployment of the qml files and compile them into the binary with qt's resource system qrc
     // this is the preferred deployment option for publishing games to the app stores, because then your qml files and js files are protected
     // to avoid deployment of your qml files and images, also comment the DEPLOYMENTFOLDERS command in the .pro file
     // also see the .pro file for more details
-    vplay.setMainQmlFileName(QStringLiteral("qrc:/qml/Main.qml"));
+    felgo.setMainQmlFileName(QStringLiteral("qrc:/qml/Main.qml"));
 #endif
 
-    engine.load(QUrl(vplay.mainQmlFileName()));
+    engine.load(QUrl(felgo.mainQmlFileName()));
 
     return app.exec();
 }

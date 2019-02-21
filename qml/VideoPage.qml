@@ -1,6 +1,6 @@
-import VPlayApps 1.0
 import QtQuick 2.0
 import QtMultimedia 5.9
+import Felgo 3.0
 
 import ObjectsRecognizer 1.0
 
